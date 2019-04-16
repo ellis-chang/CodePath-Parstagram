@@ -14,6 +14,7 @@
 		6429C7A1225C52C400BA640C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6429C79F225C52C400BA640C /* LaunchScreen.storyboard */; };
 		6429C7AC225C52C400BA640C /* ParstagramTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6429C7AB225C52C400BA640C /* ParstagramTests.swift */; };
 		6429C7B7225C52C400BA640C /* ParstagramUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6429C7B6225C52C400BA640C /* ParstagramUITests.swift */; };
+		6461C7E3225D8100001B889B /* CommentCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6461C7E2225D8100001B889B /* CommentCell.swift */; };
 		64C99C4C225C5A4700DFD025 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64C99C4B225C5A4700DFD025 /* LoginViewController.swift */; };
 		64C99C4E225C5A5000DFD025 /* FeedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64C99C4D225C5A5000DFD025 /* FeedViewController.swift */; };
 		64C99C50225C605300DFD025 /* CameraViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64C99C4F225C605300DFD025 /* CameraViewController.swift */; };
@@ -55,6 +56,7 @@
 		6429C7B2225C52C400BA640C /* ParstagramUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ParstagramUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		6429C7B6225C52C400BA640C /* ParstagramUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ParstagramUITests.swift; sourceTree = "<group>"; };
 		6429C7B8225C52C400BA640C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6461C7E2225D8100001B889B /* CommentCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommentCell.swift; sourceTree = "<group>"; };
 		64C99C4B225C5A4700DFD025 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		64C99C4D225C5A5000DFD025 /* FeedViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedViewController.swift; sourceTree = "<group>"; };
 		64C99C4F225C605300DFD025 /* CameraViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraViewController.swift; sourceTree = "<group>"; };
@@ -139,6 +141,7 @@
 				64C99C4D225C5A5000DFD025 /* FeedViewController.swift */,
 				64C99C4F225C605300DFD025 /* CameraViewController.swift */,
 				64C99C51225C6B4500DFD025 /* PostCell.swift */,
+				6461C7E2225D8100001B889B /* CommentCell.swift */,
 			);
 			path = Parstagram;
 			sourceTree = "<group>";
@@ -383,6 +386,7 @@
 				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
 				"${BUILT_PRODUCTS_DIR}/AlamofireImage/AlamofireImage.framework",
 				"${BUILT_PRODUCTS_DIR}/Bolts/Bolts.framework",
+				"${BUILT_PRODUCTS_DIR}/MessageInputBar/MessageInputBar.framework",
 				"${BUILT_PRODUCTS_DIR}/Parse/Parse.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
@@ -392,6 +396,7 @@
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AlamofireImage.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Bolts.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MessageInputBar.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Parse.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -411,6 +416,7 @@
 				64C99C4E225C5A5000DFD025 /* FeedViewController.swift in Sources */,
 				6429C797225C52C100BA640C /* AppDelegate.swift in Sources */,
 				64C99C52225C6B4500DFD025 /* PostCell.swift in Sources */,
+				6461C7E3225D8100001B889B /* CommentCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
